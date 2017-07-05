@@ -1,0 +1,378 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8830BFDF1F0CAEDE0014E5A0 /* SureMinionsEyesView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8830BFDC1F0CAEDE0014E5A0 /* SureMinionsEyesView.m */; };
+		8830BFE01F0CAEDE0014E5A0 /* SureMinionsView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8830BFDE1F0CAEDE0014E5A0 /* SureMinionsView.m */; };
+		8865BD411F09F0AD009FED59 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8865BD401F09F0AD009FED59 /* main.m */; };
+		8865BD441F09F0AD009FED59 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8865BD431F09F0AD009FED59 /* AppDelegate.m */; };
+		8865BD471F09F0AD009FED59 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8865BD461F09F0AD009FED59 /* ViewController.m */; };
+		8865BD4A1F09F0AD009FED59 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8865BD481F09F0AD009FED59 /* Main.storyboard */; };
+		8865BD4C1F09F0AD009FED59 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8865BD4B1F09F0AD009FED59 /* Assets.xcassets */; };
+		8865BD4F1F09F0AD009FED59 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8865BD4D1F09F0AD009FED59 /* LaunchScreen.storyboard */; };
+		8865BD5E1F09F0E2009FED59 /* minions_background.png in Resources */ = {isa = PBXBuildFile; fileRef = 8865BD571F09F0E2009FED59 /* minions_background.png */; };
+		8865BD5F1F09F0E2009FED59 /* minions_background@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8865BD581F09F0E2009FED59 /* minions_background@2x.png */; };
+		8865BD601F09F0E2009FED59 /* minions_eyes_double.png in Resources */ = {isa = PBXBuildFile; fileRef = 8865BD591F09F0E2009FED59 /* minions_eyes_double.png */; };
+		8865BD611F09F0E2009FED59 /* minions_eyes_double@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8865BD5A1F09F0E2009FED59 /* minions_eyes_double@2x.png */; };
+		8865BD621F09F0E2009FED59 /* minions_eyes@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8865BD5B1F09F0E2009FED59 /* minions_eyes@2x.png */; };
+		8865BD631F09F0E2009FED59 /* minions_grass.png in Resources */ = {isa = PBXBuildFile; fileRef = 8865BD5C1F09F0E2009FED59 /* minions_grass.png */; };
+		8865BD641F09F0E2009FED59 /* minions_grass@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8865BD5D1F09F0E2009FED59 /* minions_grass@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8830BFDB1F0CAEDE0014E5A0 /* SureMinionsEyesView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SureMinionsEyesView.h; sourceTree = "<group>"; };
+		8830BFDC1F0CAEDE0014E5A0 /* SureMinionsEyesView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SureMinionsEyesView.m; sourceTree = "<group>"; };
+		8830BFDD1F0CAEDE0014E5A0 /* SureMinionsView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SureMinionsView.h; sourceTree = "<group>"; };
+		8830BFDE1F0CAEDE0014E5A0 /* SureMinionsView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SureMinionsView.m; sourceTree = "<group>"; };
+		8865BD3C1F09F0AD009FED59 /* SureOFOCopy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SureOFOCopy.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8865BD401F09F0AD009FED59 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8865BD421F09F0AD009FED59 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		8865BD431F09F0AD009FED59 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		8865BD451F09F0AD009FED59 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		8865BD461F09F0AD009FED59 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		8865BD491F09F0AD009FED59 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8865BD4B1F09F0AD009FED59 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8865BD4E1F09F0AD009FED59 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8865BD501F09F0AD009FED59 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8865BD571F09F0E2009FED59 /* minions_background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = minions_background.png; sourceTree = "<group>"; };
+		8865BD581F09F0E2009FED59 /* minions_background@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "minions_background@2x.png"; sourceTree = "<group>"; };
+		8865BD591F09F0E2009FED59 /* minions_eyes_double.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = minions_eyes_double.png; sourceTree = "<group>"; };
+		8865BD5A1F09F0E2009FED59 /* minions_eyes_double@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "minions_eyes_double@2x.png"; sourceTree = "<group>"; };
+		8865BD5B1F09F0E2009FED59 /* minions_eyes@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "minions_eyes@2x.png"; sourceTree = "<group>"; };
+		8865BD5C1F09F0E2009FED59 /* minions_grass.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = minions_grass.png; sourceTree = "<group>"; };
+		8865BD5D1F09F0E2009FED59 /* minions_grass@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "minions_grass@2x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8865BD391F09F0AD009FED59 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8830BFDA1F0CAEDE0014E5A0 /* SureMinionsView */ = {
+			isa = PBXGroup;
+			children = (
+				8830BFDB1F0CAEDE0014E5A0 /* SureMinionsEyesView.h */,
+				8830BFDC1F0CAEDE0014E5A0 /* SureMinionsEyesView.m */,
+				8830BFDD1F0CAEDE0014E5A0 /* SureMinionsView.h */,
+				8830BFDE1F0CAEDE0014E5A0 /* SureMinionsView.m */,
+			);
+			path = SureMinionsView;
+			sourceTree = "<group>";
+		};
+		8865BD331F09F0AD009FED59 = {
+			isa = PBXGroup;
+			children = (
+				8865BD3E1F09F0AD009FED59 /* SureOFOCopy */,
+				8865BD3D1F09F0AD009FED59 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8865BD3D1F09F0AD009FED59 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8865BD3C1F09F0AD009FED59 /* SureOFOCopy.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8865BD3E1F09F0AD009FED59 /* SureOFOCopy */ = {
+			isa = PBXGroup;
+			children = (
+				8830BFDA1F0CAEDE0014E5A0 /* SureMinionsView */,
+				8865BD561F09F0CE009FED59 /* resource */,
+				8865BD421F09F0AD009FED59 /* AppDelegate.h */,
+				8865BD431F09F0AD009FED59 /* AppDelegate.m */,
+				8865BD451F09F0AD009FED59 /* ViewController.h */,
+				8865BD461F09F0AD009FED59 /* ViewController.m */,
+				8865BD481F09F0AD009FED59 /* Main.storyboard */,
+				8865BD4B1F09F0AD009FED59 /* Assets.xcassets */,
+				8865BD4D1F09F0AD009FED59 /* LaunchScreen.storyboard */,
+				8865BD501F09F0AD009FED59 /* Info.plist */,
+				8865BD3F1F09F0AD009FED59 /* Supporting Files */,
+			);
+			path = SureOFOCopy;
+			sourceTree = "<group>";
+		};
+		8865BD3F1F09F0AD009FED59 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8865BD401F09F0AD009FED59 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8865BD561F09F0CE009FED59 /* resource */ = {
+			isa = PBXGroup;
+			children = (
+				8865BD571F09F0E2009FED59 /* minions_background.png */,
+				8865BD581F09F0E2009FED59 /* minions_background@2x.png */,
+				8865BD591F09F0E2009FED59 /* minions_eyes_double.png */,
+				8865BD5A1F09F0E2009FED59 /* minions_eyes_double@2x.png */,
+				8865BD5B1F09F0E2009FED59 /* minions_eyes@2x.png */,
+				8865BD5C1F09F0E2009FED59 /* minions_grass.png */,
+				8865BD5D1F09F0E2009FED59 /* minions_grass@2x.png */,
+			);
+			path = resource;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8865BD3B1F09F0AD009FED59 /* SureOFOCopy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8865BD531F09F0AD009FED59 /* Build configuration list for PBXNativeTarget "SureOFOCopy" */;
+			buildPhases = (
+				8865BD381F09F0AD009FED59 /* Sources */,
+				8865BD391F09F0AD009FED59 /* Frameworks */,
+				8865BD3A1F09F0AD009FED59 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SureOFOCopy;
+			productName = SureOFOCopy;
+			productReference = 8865BD3C1F09F0AD009FED59 /* SureOFOCopy.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8865BD341F09F0AD009FED59 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "刘硕";
+				TargetAttributes = {
+					8865BD3B1F09F0AD009FED59 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = WU9XE3GG57;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 8865BD371F09F0AD009FED59 /* Build configuration list for PBXProject "SureOFOCopy" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8865BD331F09F0AD009FED59;
+			productRefGroup = 8865BD3D1F09F0AD009FED59 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8865BD3B1F09F0AD009FED59 /* SureOFOCopy */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8865BD3A1F09F0AD009FED59 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8865BD4F1F09F0AD009FED59 /* LaunchScreen.storyboard in Resources */,
+				8865BD5E1F09F0E2009FED59 /* minions_background.png in Resources */,
+				8865BD621F09F0E2009FED59 /* minions_eyes@2x.png in Resources */,
+				8865BD611F09F0E2009FED59 /* minions_eyes_double@2x.png in Resources */,
+				8865BD4C1F09F0AD009FED59 /* Assets.xcassets in Resources */,
+				8865BD641F09F0E2009FED59 /* minions_grass@2x.png in Resources */,
+				8865BD4A1F09F0AD009FED59 /* Main.storyboard in Resources */,
+				8865BD631F09F0E2009FED59 /* minions_grass.png in Resources */,
+				8865BD601F09F0E2009FED59 /* minions_eyes_double.png in Resources */,
+				8865BD5F1F09F0E2009FED59 /* minions_background@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8865BD381F09F0AD009FED59 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8865BD471F09F0AD009FED59 /* ViewController.m in Sources */,
+				8830BFE01F0CAEDE0014E5A0 /* SureMinionsView.m in Sources */,
+				8830BFDF1F0CAEDE0014E5A0 /* SureMinionsEyesView.m in Sources */,
+				8865BD441F09F0AD009FED59 /* AppDelegate.m in Sources */,
+				8865BD411F09F0AD009FED59 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		8865BD481F09F0AD009FED59 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8865BD491F09F0AD009FED59 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8865BD4D1F09F0AD009FED59 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8865BD4E1F09F0AD009FED59 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8865BD511F09F0AD009FED59 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		8865BD521F09F0AD009FED59 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8865BD541F09F0AD009FED59 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = WU9XE3GG57;
+				INFOPLIST_FILE = SureOFOCopy/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Sure.SureOFOCopy;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8865BD551F09F0AD009FED59 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = WU9XE3GG57;
+				INFOPLIST_FILE = SureOFOCopy/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Sure.SureOFOCopy;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8865BD371F09F0AD009FED59 /* Build configuration list for PBXProject "SureOFOCopy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8865BD511F09F0AD009FED59 /* Debug */,
+				8865BD521F09F0AD009FED59 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8865BD531F09F0AD009FED59 /* Build configuration list for PBXNativeTarget "SureOFOCopy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8865BD541F09F0AD009FED59 /* Debug */,
+				8865BD551F09F0AD009FED59 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8865BD341F09F0AD009FED59 /* Project object */;
+}
