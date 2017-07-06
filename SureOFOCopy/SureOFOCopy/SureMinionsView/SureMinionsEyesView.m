@@ -74,7 +74,7 @@
                     CGFloat x = center.x - r / distance * (center.x - currentPoint.x);
                     CGFloat y = center.y + r / distance * (currentPoint.y - center.y);
                     
-                    self.eyesImageView.center = CGPointMake(x, y);
+                    _eyesImageView.center = CGPointMake(x, y);
                 }
             } else {
                 NSLog(@"%@",error);
